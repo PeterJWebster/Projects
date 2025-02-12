@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html> 
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Raleway:700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="header">
+      <span class="logo-text">Peter Webster | Portfolio</span>
+    </div>
+    <!-- START NAV -->
+    <nav id="navbar" class="nav">
+      <ul class="nav-list">
+        <li>
+          <a href="#welcome">About</a> 
+        </li>
+        <li>
+          <a href="#projects">Work</a>
+        </li>
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+      </ul>
+    </nav>
+    <!-- END NAV -->
+    <!-- START WELCOME SECTION -->
+    <section id="welcome" class="welcome-section">
+      <img src="Assets/IMG_Peter.jpg" alt="Peter Webster" class="profile-image">
+      <h1>Hello, I'm Peter!</h1>
+      <div class="animated-text">
+        <div class="line">A Programmer</div>
+        <div class="line">A Problem Solver</div>
+        <div class="line">A Puzzle Enthusiast</div>
+        <div class="line">A Philomath</div>
+      </div>
+      <!-- END WELCOME SECTION -->
+       <br>
+      <div class="cv-container">
+        <a href="https://peterjwebster.github.io/Assets/CV.pdf" class="cv-button" target="_blank"><i class="fas fa-file-pdf"></i>   View My CV</a>
+      </div>
+    </section>  
+    <!-- START PROJECTS SECTION -->
+    <section id="projects" class="projects-section">
+      <h2 class="projects-section-header">Here are some of my projects</h2>
+      <div class="projects-grid">
+        <a href="https://github.com/PeterJWebster/Projects/tree/main/Facial%20Recognition%20Class%20Attendance%20Project" target="_blank" class="project project-tile"> 
+          <img class="project-image" src="Assets/Facial_Recognition_System.png" alt="project">
+          <p class="project-title">
+            <span class="code">{</span> 
+             Facial Recognition Register 
+            <span class="code">}</span>
+          </p> 
+        </a>
+        <a href="https://github.com/PeterJWebster/Projects/tree/main/Sample%20Landing%20Page" target="_blank" class="project project-tile"> 
+          <img class="project-image" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/calc.png" alt="project">
+          <p class="project-title">
+            <span class="code">{</span>
+             Company Landing Page 
+            <span class="code">}</span>
+          </p> 
+        </a>
+        <a href="https://github.com/PeterJWebster/Projects/tree/main/Haskell%20Maze%20Solver" target="_blank" class="project project-tile"> 
+          <img class="project-image" src="Assets/Maze_Solver.png" alt="project">
+          <p class="project-title">
+            <span class="code">{</span>
+             Haskell Maze Solver 
+            <span class="code">}</span>
+          </p>
+        </a>
+      </div>
+      <a href="https://github.com/PeterJWebster/Projects/tree/main" class="btn btn-show-all" target="_blank">
+        Show all
+        <i class="fas fa-chevron-right"></i>
+      </a>
+    </section>
+    <!-- END PROJECTS SECTION -->
+    <!-- START CONTACT SECTION -->
+    <!-- START CONTACT SECTION -->
+    <section id="contact" class="contact-section"> 
+      <div class="contact-section-header">
+        <h2>Get in Touch</h2>
+        <br><br>
+      </div>
+      <form id="contact-form" action="https://formspree.io/f/xeoekyjq" method="POST">
+        <div class="form-row">
+          <input type="text" id="name" name="name" placeholder="Your Name" required>
+          <input type="email" id="email" name="email" placeholder="Your Email" required>
+        </div>
+        <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+        <button type="submit">
+          Send <i class="fas fa-paper-plane"></i>
+        </button>
+      </form>
+    </section>
+    <!-- END CONTACT SECTION -->
+  </body>
+</html>
